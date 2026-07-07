@@ -4,6 +4,7 @@ local Rayfield = loadstring(game:HttpGet('https://pastefy.app/xclbqwYp/raw'))()
 
 local Window = Rayfield:CreateWindow({
 	Name = "Paint by numbers | clem.la",
+    ScriptID = "sid_4p1vdbqblhqn",
 	Icon = "plane",
 	LoadingTitle = "Coming up!",
 	LoadingSubtitle = "by clem.la",
