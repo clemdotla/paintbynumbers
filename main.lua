@@ -203,7 +203,8 @@ end)
 Main:CreateButton({
     Name = "Restart",
     Callback = function()
-        loadstring(game:HttpGet('http://localhost/script/paintbynumbers'))()
+        -- loadstring(game:HttpGet('http://localhost/script/paintbynumbers'))()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/clemdotla/paintbynumbers/refs/heads/main/main.lua'))()
     end
 })
 
